@@ -660,6 +660,7 @@ hr {
 .banner-image{background-image:linear-gradient(#0008,#0008), url(../images/hand.jpg)}
 .about-image,.Services-image,.portfolio-image,.contact-image{
   background-image:linear-gradient(#0008,#0008), url(../images/pexels-karolina-grabowska-4239016.jpg);}
+  .booking .buttons2{display: block;}
 
 }
 
