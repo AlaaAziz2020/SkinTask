@@ -9,23 +9,24 @@
 body{overflow-x: hidden}
 /*Nav*/
 
-nav {
-	position: fixed;
-	z-index: 10;
-	left: 0;
-	right: 0;
-	top: 0;
-	padding: 0 5%;
-	height: 100px;
+
+  nav {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0 5%;
+    height: 61px;
 }
 nav .logo {
     float: left;
     width: 40%;
     height: 100%;
     display: flex;
-     align-items: center;
-	font-size: 24px;
-	color: #fff;
+    align-items: center;
+  	font-size: 24px;
+   	color: #fff;
 }
 .logo a:hover,
 nav .links li a:hover {color:#e9e1e1}
@@ -43,7 +44,7 @@ nav .links {
 
 nav .links li {list-style: none;}
 
-nav .links a {display: block;padding: 1em;font-size: 16px;font-weight: bold;color: #fff;text-decoration: none;}
+nav .links a {display: block;font-size: 16px;font-weight: bold;color: #fff;text-decoration: none;}
 
 #nav-toggle {position: absolute;top: -100px;}
 
@@ -115,7 +116,8 @@ nav .icon-burger .line {width: 30px;height: 5px;background-color: #fff;margin: 5
  .btn1{background-color: #784f57;border: 2px solid #784f57}
  .btn2{border: 1px solid #fff;}
 /*nav{    height: 60px }*/
-nav .menu-link{border:.5px solid #fff;height:80%}
+nav .menu-link{border:.5px solid #fff;    padding: 10px;
+  margin-bottom: 16px;}
 
 .btn1:hover,
 nav .menu-link:hover{ background-color:#b97986;transition: all .5s;color:#fff}
@@ -640,9 +642,13 @@ hr {
   }
   .footer form a{margin-top:15px}
   .footer .S{    padding-left: 13%;}
+
+  .booking{        height: 675px;
+
+  }
+.booking-text{display: block;}
   .portfolio .photos{padding-left:20%}
 .portfolio .photos img{padding-top:4%}
-.booking a{display:block}
 .info{padding-bottom:12%;padding-top:11%}
 .info .box1{    margin-top: 35%}
 .services{    height: 50%}
@@ -660,6 +666,11 @@ hr {
 .banner-image{background-image:linear-gradient(#0008,#0008), url(../images/hand.jpg)}
 .about-image,.Services-image,.portfolio-image,.contact-image{
   background-image:linear-gradient(#0008,#0008), url(../images/pexels-karolina-grabowska-4239016.jpg);}
-.booking{height: 675px}
-.booking-text{display: block}
+  .collection .examples{padding-left: 23%}
+  .collection .examples .cleaning{padding-bottom:20px}
+  .collection .examples .cleaning2,.cleaning3,.cleaning4,.cleaning5{padding-top:30px;padding-bottom: 20px;}
+ .image img {
+    margin-top: 30px;
 
+}
+}
